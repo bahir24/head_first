@@ -5,6 +5,12 @@
   "author": "Mikhail_Bakhirev <7074033@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^4.41.2"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-html-plugin": "^0.1.1"
+  },
+  "scripts": {
+    "test": "webpack-dev-server"
   }
 }
